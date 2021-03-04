@@ -1,0 +1,29 @@
+
+A. Briefly summarize the research described in the article you read. 
+
+// Describe what is it: it looks two components: the physical process; what it does
+The article [1] I read details a processor named jiuzhang that has achieved quantum supremacy by completing a calculation in 200 seconds that would take 500 million years of computing time on a classical computer.  // describe some details. Specifically, ... 
+
+// 
+This processor is the second one to achieve “quantum supremacy” XXX this milestone was first achieved by Google’s Sycamore Computer in 2019 [2]. The underlying physics of the two orocessors are similar yet distinct. They are similar as they both use qubits. However, the Sycamore processor still stays within the realm of classical computing and uses special quantum logic gates; on the other hand, Jiuzhang is less generalizable and relies on a double counting argument in relation to a physics experiment. 
+
+Similar to how one can simulate a galton board to get binomial coefficients, the jiuzhang processor relies on the coinciding of the formulas for the perm(A) of a matrix, which is just the determinant with all signs set to positive, and the physics of boson refraction.
+
+// physical process 
+The Jiuzhang device uses a collection of optical devices. It all begins with light sources, which send particles down specified paths. Then, in the processor, there are hundreds of beam splitters, and dozens of mirrors, which serve to split the bosons and simultaneously send them down to paths simultaneously. Thus, instead of saving intermediate values in memory like a classical computer does, the intermediate values are saved in the probabilities that a particle is on a specific path. By using the properties of quantum superpositions, nature creates a random number, and with the help of the beam splitters, proportions can be encoded in probability. Finally then by running the simulation tens of thousands of times, which doesn’t take too long, you can then turn those probabilities into the value you were looking for. 
+
+B. What interests you about the research discussed in this article? 
+
+This research fascinates me because the technology is still incredibly new, and this is quantum computing’s ENIAC/Turing era. While learning computer science, I was always fascinated by the underlying physics of superconductors and the basic logic gates. It’s immensely gratifying to take extremely basic building blocks, and for a lack of a better term, “play god” and use the physical processes to create seemingly magical things. Just like how scientists of yesteryear would have no idea how to approach executing functions using transistors, we currently have no idea how to set up beam splitters in order to solve general problems. 
+
+C. What is one aspect/detail of the research that you still do not understand very well? 
+
+One detail of this research that I still do not really understand is how the beam splitters work. Unfortunately, my Physics 250 knowledge has let me down. My understanding of physics is limited to emelemetry physics, and I There does not seem to be an elementary physics explanation of why the beam splits.  everyday example I came up with is that when light hits the surface of the pool, some of it passes through onto the pool floor, while some others get bounced up and form patterns on the ceiling. However,I conject thatlikely I think  this phenomenon can be explained by the unevenness of the water and indirect paths bouncing off of surrounding objects, both of which serve to create a variance in the incident angles.
+
+D. What would you do next if you were the researcher? Assume that the research described used sound experimental design and techniques
+
+If I were the researcher, the next task would be to consider how to make this computer more general-purpose. Google’s Sycamore processor was programmable, albeit still not very useful. As the researcher, my next step would be to first implement a special case when a beam splitter sends it in one of two directions with equal probability, i.e. 50% each. Just like classical computers don’t keep track of exact voltage, they use High-Low, two choices. Perhaps specially designed beam splitters which allow the particle through half of the time will allow you to make the probabilities of each superposition some integer over 2^# of splits. Then, this allows you to easily translate the probabilities in the superpositions into a binary fraction. That way, it would be more possible to build on the decades-in-the-making extensive documentation of mathematics in binary. 
+
+References:
+[1] Add correct reference format. https://www.sciencenews.org/article/new-light-based-quantum-computer-jiuzhang-supremacy
+[2] Google

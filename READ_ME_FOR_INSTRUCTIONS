@@ -1,0 +1,31 @@
+The main file that you'll need to use is run.py
+
+The only two files which participate in the running of code are run.py and nltk_test.py
+
+The libraries necessary are those at the headers of these two docs:
+
+import random
+import string
+import cherrypy
+import os
+import nltk
+from nltk import sent_tokenize
+from nltk import word_tokenize
+
+from nltk.probability import FreqDist
+import matplotlib.pyplot as plt
+
+from wordcloud import WordCloud
+
+import numpy as np
+import math
+from PIL import Image, ImageDraw
+
+from nltk.corpus import wordnet
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+
+After downloading these and executing run.py, you will be able to access the website by going to localhost:8080
+
+
+Note: Unfortunately, I couldn't figure out how to pass an image through to get the wordcloud to work on all devices, so you will not be able to use that feature unless you place all of this code into a folder called "java2020/cs550". 

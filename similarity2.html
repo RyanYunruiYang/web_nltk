@@ -1,0 +1,34 @@
+<html>
+    <head>
+      <link href = "/static/css/style.css" rel = "stylesheet">
+      <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+      <script type="text/javascript"> 
+    //   $(document).ready(function() {{
+    //     var data = "supoman"
+    //     $("#my_id").text("Your one stop shop for science writing help")
+    //   }})
+      </script>
+
+    </head>
+    <body>
+        <h1>
+            Your similarity score is {similarity}
+        </h1>
+        <div>
+            <p>
+                This score represents the cosine of the angle between the vectors representing the words
+                of the two documents. There's not much specific reasoning behind it, it's just that it's 
+                easily calculatable as the dot product divided by the product of each of the magnitudes.
+            </p>
+            <h2>
+                For reference though here are some scores that you could get:
+            </h2>
+            <p>
+                The similarity of two documents which no words in commonwill be 0 <br>
+                The similarity of two documents which are the same will be 1<br>
+                The similarity of my SRP application and History paper on Islamic Empires was 0.60<br>
+                The similarity of my SRP application and the article it was based on was 0.71<br>
+            </p>
+        </div>
+   </body>
+</html>

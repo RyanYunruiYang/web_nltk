@@ -1,0 +1,24 @@
+body {
+    height: 200px;
+    background-color: #cccccc;
+    /* background-image: linear-gradient(red, yellow, green); */
+}
+
+/* font {
+    font: Times New Roman
+} */
+
+button {
+    width: 2000;
+}
+input {
+    height: 100;
+    width: 500;
+}
+
+span {
+    background-color: brown;
+}
+p.my_p {
+    background-color: lightyellow;
+}

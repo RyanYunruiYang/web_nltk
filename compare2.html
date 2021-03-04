@@ -1,0 +1,32 @@
+<html>
+    <head>
+      <link href = "/static/css/style.css" rel = "stylesheet">
+      <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+      <script type="text/javascript"> 
+
+      </script>
+
+    </head>
+    <body>
+
+        <p class="my_p" id="my_id">
+            Please enter the pair of texts that you want to be compared
+        </p>
+        <form method="get" action="text_comparison">
+            <div>
+                <textarea name="text1" rows="4" cols="60">Place text 1 here
+                </textarea>
+            </div>
+
+            <br>
+            <div>
+                <!-- <input type="textarea" value="text 1" name="original" /> -->
+                <textarea name="text2" rows="4" cols="60">Place text 2 here
+                </textarea>
+            </div>       
+            <br>
+            <button type="submit" style = "width: 40%; height:100">Compare the texts!!</button>
+            
+       </form>
+   </body>
+</html>
